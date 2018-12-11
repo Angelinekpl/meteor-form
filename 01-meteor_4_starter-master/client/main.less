@@ -1,0 +1,59 @@
+@mycolor : #FFF;
+
+body {
+  padding: 10px;
+  font-family: sans-serif;
+  background-color: @mycolor;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.form {
+  width: 50%;
+}
+
+.students-list {
+    width: 50%;
+    list-style: none;
+    display: flex;
+  justify-content: center;
+}
+
+
+.github {
+  font-weight: bold;
+}
+
+.content {
+  width: 50%;
+  border-right: 1px solid #E1E1DC;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  height: 32em;
+}
+
+input {
+  margin: 15px 0;
+  border-radius: 6px;
+  height: 2em;
+  border: 1px solid grey;
+  width: 21em;
+  outline: none;
+}
+
+#submit {
+height: 80px;
+width: 80px;
+border: none;
+border-radius: 50%;
+color: #ffffff;
+font-weight: bold;
+box-shadow: 5px 4px 25px -13px rgba(102,102,102,1);
+  background: rgb(236,142,35);
+  background: linear-gradient(50deg, rgba(236,142,35,1) 0%, rgba(241,67,97,1) 22%, rgba(222,32,154,1) 40%, rgba(127,38,228,1) 59%, rgba(17,154,234,1) 78%, rgba(76,253,213,1) 100%);
+outline: none;
+}
